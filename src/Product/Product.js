@@ -1,6 +1,6 @@
 let Product = props => {
     return (
-        <div className="product-box">
+       
             <div className="products">
                 <img src={props.image}
                     alt="" />
@@ -20,7 +20,7 @@ let Product = props => {
                     {props.price}
                 </div>
             </div>
-        </div>
+        
     )
 }
 export default Product;

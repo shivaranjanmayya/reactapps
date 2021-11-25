@@ -38,8 +38,9 @@ h6{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
     grid-gap: 2rem;
-    margin-top: 9px;
-    margin-bottom: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    scroll-behavior: auto;
 }
 #product .products{
     text-align: start;
@@ -57,11 +58,14 @@ h6{
 }
 #product .products .details{
     padding: 2px 15px 0 15px;
+    
 }
 #product .products .details i{
     color: #FDC93B;
-    font-size:.9rem;
+    font-size:1.4rem;
+    
 }
+
 #product .products .cost{
     background-color: rgb(74,74,136);
     color:#fff;
