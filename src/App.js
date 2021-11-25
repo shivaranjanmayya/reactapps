@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+
+/*import Song from './Component/Song';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Song name="Matte maleyagide" year="2017" artistName="Sonu Nigam"/>
+    <Song name="ondu malebillu" year="2017" artistName="Shreya Goshal"/>
+    <Song name="Nannavale Nannavale" year="2017" artistName="Sonu Nigam"/>
+    <Song name="Gayatri Mantra" year="2020" artistName="Anuradha Paudwal"/>
+    </div>
+  );
+}*/
+
+import Details from './Product/Details';
+
+function App() {
+  return (
+    <div className="App">
+    <Details/>
+    
     </div>
   );
 }

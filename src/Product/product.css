@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size:2.5rem;
+    font-weight: 700;
+    color: rgb(49, 10, 85);
+	padding: 10px 40px;
+    text-align: center;
+    width: 100%;
+    border: 1px solid #ccccd6;
+    background: #ccccd6;
+    border-radius: 20px;
+}
+
+span{
+    font-size:.9rem;
+    columns: #757373;
+    color: rgb(46, 9, 94);
+    font-weight: bold;
+}
+h6{
+    font-size: 1.1rem;
+    color: rgb(24,24,49);
+}
+
+#product{
+    padding: 2vw 3vw 0vw 3vw;
+    text-align:center;
+    background-image: url("https://wallpaperaccess.com/full/1626266.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#product .product-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    grid-gap: 2rem;
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+#product .products{
+    text-align: start;
+    background: #ccccd6;
+    height: 100%;
+    position: relative;
+}
+#product .products img{
+    width: 100%;
+    height: 75%;
+    background-size: cover;
+    background-position: center;
+    
+    border: 1px solid #ccccd6;
+}
+#product .products .details{
+    padding: 2px 15px 0 15px;
+}
+#product .products .details i{
+    color: #FDC93B;
+    font-size:.9rem;
+}
+#product .products .cost{
+    background-color: rgb(74,74,136);
+    color:#fff;
+    line-height: 70px;
+    width:70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 60%;
+    position: absolute;
+    right:-15px;
+    bottom: 100px;
+}
+
+  
+ 
+
+  
+  
