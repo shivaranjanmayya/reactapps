@@ -1,6 +1,5 @@
 let Product = props => {
     return (
-       
             <div className="products">
                 <img src={props.image}
                     alt="" />
