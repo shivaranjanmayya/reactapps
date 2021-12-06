@@ -1,11 +1,57 @@
 .App {
   text-align: center;
 }
+.product{
+  padding:1vw 8vw 0 8vw;
+  padding-bottom: 30px;
+}
+body {
+  background-image: url("https://store.hp.com/app/assets/images/uploads/prod/misty-forest-background1595620320482968.jpg?impolicy=prdimg&imdensity=1&imwidth=600");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.search {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+.search input {
+  height: 40px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4
+}
+
+.search input:focus {
+  box-shadow: none;
+  
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 12px;
+  left: 16px
+}
+
+.cost{
+  background-color: rgb(238, 13, 13);
+  color:#fff;
+  line-height: 70px;
+  width:50px;
+  height: 70px;
+  border-radius: 10%;
+  text-align: center;
+  position: absolute;
+  right:-4px;
+  bottom: 363px;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

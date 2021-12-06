@@ -1,0 +1,45 @@
+[
+  {
+    "id": "100",
+    "name": "Hamam",
+    "price": "₹200",
+    "image":"https://github.com/shivaranjanmayya/reactapps/blob/master/306148_1-hamam-soap-bar_prev_ui.png?raw=true"
+    
+  },
+  {
+    "id": "101",
+    "name": "Santoor",
+    "price": "₹190",
+    "image":"https://github.com/shivaranjanmayya/reactapps/blob/master/100005805_8-santoor-bathing-soap-sandal-turmeric_prev_ui.png?raw=true"
+    
+  },
+  {
+    "id": "102",
+    "name": "Dove",
+    "price": "₹152",
+    "image":"https://github.com/shivaranjanmayya/reactapps/blob/master/dove-soap-500x500_prev_ui.png?raw=true"
+    
+  },
+  {
+    "id": "103",
+    "name": "Medimix",
+    "price": "₹150",
+    "image":"https://github.com/shivaranjanmayya/reactapps/blob/master/medimix-ayurvedic-18-herbs-classic-soap-125-g-0-20210831_prev_ui.png?raw=true"
+    
+  },
+  {
+    "id": "104",
+    "name": "Lux",
+    "price": "₹120",
+    "image":"https://github.com/shivaranjanmayya/reactapps/blob/master/lux-002-500x500_prev_ui.png?raw=true"
+    
+  },
+  {
+    "id": "105",
+    "name": "Pears",
+    "price": "₹250",
+    "image":"https://github.com/shivaranjanmayya/reactapps/blob/master/75-gm-pears-pure-gentle-soap-500x500_prev_ui.png?raw=true"
+    
+  }
+
+]
