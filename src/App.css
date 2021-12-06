@@ -1,7 +1,6 @@
 .App {
   text-align: center;
 }
-<<<<<<< HEAD
 .product{
   padding:1vw 8vw 0 8vw;
   padding-bottom: 30px;
@@ -47,18 +46,12 @@ body {
   right:-4px;
   bottom: 363px;
 }
-=======
->>>>>>> 6aacb9e86da33609fb69f118546dfe5eb4ea7049
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 6aacb9e86da33609fb69f118546dfe5eb4ea7049
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

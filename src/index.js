@@ -3,14 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-<<<<<<< HEAD
-//import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 
 
-=======
->>>>>>> 6aacb9e86da33609fb69f118546dfe5eb4ea7049
 
 
 ReactDOM.render(<App/>, document.getElementById('root'));
