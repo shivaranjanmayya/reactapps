@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "myproject1",
   "version": "0.1.0",
   "private": true,
@@ -13,10 +14,29 @@
     "react-bootstrap": "^2.0.3",
     "react-dom": "^17.0.2",
     "react-scripts": "^3.4.4",
+=======
+  "homepage": "https://shivaranjanmayya.github.io/reactapps",
+  "name": "myproject",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "font-awesome": "^4.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+>>>>>>> 6aacb9e86da33609fb69f118546dfe5eb4ea7049
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
+<<<<<<< HEAD
+=======
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+>>>>>>> 6aacb9e86da33609fb69f118546dfe5eb4ea7049
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -38,5 +58,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   }
 }
+=======
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
+>>>>>>> 6aacb9e86da33609fb69f118546dfe5eb4ea7049

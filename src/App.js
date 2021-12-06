@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from 'react';
 import './App.css';
 //import './css/bootstrap.css';
@@ -80,6 +81,33 @@ export default App;
 </div>
 );
 }*/
+=======
+
+import Calculation from './Component/Calculation';
+import Greetings from './Component/Greetings/Greetings';
+import Song from './Component/Song';
+
+function App() {
+  return (
+
+   /* <div className="App">
+      
+    <Greetings/>
+    <Calculation/>
+    <Song name="Matte maleyagide" year="2017" artistName="Sonu Nigam"/>
+    <Song name="ondu malebillu" year="2017" artistName="Shreya Goshal"/>
+    <Song name="Nannavale Nannavale" year="2017" artistName="Sonu Nigam"/>
+    <Song name="Gayatri Mantra" year="2020" artistName="Anuradha Paudwal"/>
+    </div>*/
+     <div className="App">
+      
+  
+    <Calculation/>
+  
+    </div>
+  );
+}
+>>>>>>> 6aacb9e86da33609fb69f118546dfe5eb4ea7049
 
 /*import Details from './Product/Details';
 
@@ -87,9 +115,17 @@ function App() {
   return (
     <div className="App">
     <Details/>
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 6aacb9e86da33609fb69f118546dfe5eb4ea7049
     </div>
   );
 }*/
 
+<<<<<<< HEAD
 
+=======
+export default App;
+>>>>>>> 6aacb9e86da33609fb69f118546dfe5eb4ea7049
