@@ -1,5 +1,17 @@
+
 import React, { Component } from 'react';
+import Products from './Component/Products/Products';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Navigation from './Component/Navigation/Navigation';
+import Footer from './Component/Footer/Footer';
+import HomePage from './Component/Homepage/HomePage';
+import AboutUs from './Component/About/AboutUs';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'mdbreact/dist/css/mdb.css';
 import './App.css';
+
+
+
 //import './css/bootstrap.css';
 //import './js/bootstrap.bundle.min.js';
 //import Calculation from './Component/Calculation';
@@ -7,59 +19,7 @@ import './App.css';
 //import Song from './Component/Song';
 //import ComponentLifeCycle from './Component/ComponentLifeCycle';
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      products: [
 
-      ],
-
-    };
-  }
-
-  componentDidMount() {
-    //fetch('http://localhost:3000/stock.json')
-      fetch('https://myproduct-28508.web.app/stock.json')
-      .then(response => response.json())
-      .then(items => this.setState({ products: items }));
-  }
-
-  render() {
-    return (
-      <section className="product">
-
-        <div class="container">
-          <div class="row height d-flex justify-content-center align-items-center">
-            <div class="col-md-5 pt-5">
-              <div class="search"> <i class="fa fa-search"></i> <input type="text" class="form-control" placeholder="Search Your Item...." />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="App row row-cols-1 row-cols-md-3 g-4 pb-5 pt-5">
-          {this.state.products.map(product =>
-          (<div className="col" key={product.id}>
-            <div className="card h-100 bg-transparent p-3 mb-1 pt-4 rounded border-2">
-              <img src={product.image}
-                className="card-img-top" alt="..." height="300px" />
-              <div className="card-footer">
-                <div className="card-body">
-                  <h5 className="card-title text-white">{product.name}</h5>
-                  <div className="cost">
-                    {product.price}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>))}
-        </div>
-      </section>
-    );
-  }
-}
-export default App;
 /*function App() {
   return (*/
 
@@ -81,13 +41,27 @@ export default App;
 );
 }*/
 
-/*import Details from './Product/Details';
+//import Details from './Product/Details';
 
 function App() {
   return (
-    <div className="App">
-    <Details/>
+    <div>
+      
+     <Navigation/>
+     
+    
+     
+       <BrowserRouter>
+       <Routes>
+       <Route path="/" element={<HomePage/>}/>
+       <Route path="/AboutUs" element={<AboutUs/>}/>
+      <Route path="/Products" element={<Products/>}/>
+      </Routes>
+    </BrowserRouter>
+    <Footer/>
+   
     </div>
   );
-}*/
+}
 
+export default App;
