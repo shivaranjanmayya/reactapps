@@ -1,44 +1,44 @@
 [
   {
     "id": "100",
-    "name": "Hamam",
-    "price": "₹200",
-    "image":"https://github.com/shivaranjanmayya/reactapps/blob/master/306148_1-hamam-soap-bar_prev_ui.png?raw=true"
+    "name": "URBAN BOUNCE RED DIAL RED STRAP WATCH",
+    "price": "₹4,195.00",
+    "image":"https://staticimg.titan.co.in/Fastrack/Catalog/3268NP01_1.jpg?pView=pdp"
     
   },
   {
     "id": "101",
-    "name": "Santoor",
-    "price": "₹190",
-    "image":"https://github.com/shivaranjanmayya/reactapps/blob/master/100005805_8-santoor-bathing-soap-sandal-turmeric_prev_ui.png?raw=true"
+    "name": "FASTRACK X ANIMAL PRINT WATCH WITH SILVER DIAL",
+    "price": "₹1,995.00",
+    "image":"https://staticimg.titan.co.in/Fastrack/Catalog/6221SM01_1.jpg?pView=pdp"
     
   },
   {
     "id": "102",
-    "name": "Dove",
-    "price": "₹152",
-    "image":"https://github.com/shivaranjanmayya/reactapps/blob/master/dove-soap-500x500_prev_ui.png?raw=true"
+    "name": "ALL NIGHTERS BLACK DIAL LEATHER STRAP WATCH",
+    "price": "₹6,350.00",
+    "image":"https://staticimg.titan.co.in/Fastrack/Catalog/3196AP02_1.jpg?pView=pdp"
     
   },
   {
     "id": "103",
-    "name": "Medimix",
-    "price": "₹150",
-    "image":"https://github.com/shivaranjanmayya/reactapps/blob/master/medimix-ayurvedic-18-herbs-classic-soap-125-g-0-20210831_prev_ui.png?raw=true"
+    "name": "GREY DIAL STAINLESS STEEL STRAP WATCH",
+    "price": "₹2,550.00",
+    "image":"https://staticimg.titan.co.in/Fastrack/Catalog/3247NM02_1.jpg?pView=pdp"
     
   },
   {
     "id": "104",
-    "name": "Lux",
-    "price": "₹120",
-    "image":"https://github.com/shivaranjanmayya/reactapps/blob/master/lux-002-500x500_prev_ui.png?raw=true"
+    "name": "TRIPSTER WHITE DIAL STAINLESS STEEL STRAP WATCH",
+    "price": "₹2,395.00",
+    "image":"https://staticimg.titan.co.in/Fastrack/Catalog/3245SM01_1.jpg?pView=pdp"
     
   },
   {
     "id": "105",
-    "name": "Pears",
-    "price": "₹250",
-    "image":"https://github.com/shivaranjanmayya/reactapps/blob/master/75-gm-pears-pure-gentle-soap-500x500_prev_ui.png?raw=true"
+    "name": "FASTFIT WATCH WITH BLACK DIAL & LEATHER STRAP",
+    "price": "₹4,550.00",
+    "image":"https://staticimg.titan.co.in/Fastrack/Catalog/3224NL01_1.jpg?pView=pdp"
     
   }
 

@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import Products from './Component/Products/Products';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navigation from './Component/Navigation/Navigation';
 import Footer from './Component/Footer/Footer';
 import HomePage from './Component/Homepage/HomePage';
@@ -47,19 +47,16 @@ function App() {
   return (
     <div>
       
-     <Navigation/>
-     
-    
-     
-       <BrowserRouter>
-       <Routes>
-       <Route path="/" element={<HomePage/>}/>
-       <Route path="/AboutUs" element={<AboutUs/>}/>
-      <Route path="/Products" element={<Products/>}/>
-      </Routes>
-    </BrowserRouter>
-    <Footer/>
-   
+      <Navigation />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Products" element={<Products />} />
+        </Routes>
+      </BrowserRouter>
+      <Footer />
+
     </div>
   );
 }

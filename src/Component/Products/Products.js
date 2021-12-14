@@ -11,14 +11,24 @@ class Products extends Component {
         };
     }
 
+    filterUpdate=()=>{
+         fetch('http://localhost:3000/stock.json')
+         //fetch('https://fastrack-8c441.web.app/stock.json')
+         .then(response => response.json())
+         .then(items => this.setState({ products: items }));
+
+    }
+
     componentDidMount() {
-        fetch('http://localhost:3000/stock.json')
-            //fetch('https://myproduct-28508.web.app/stock.json')
-            .then(response => response.json())
-            .then(items => this.setState({ products: items }));
+        this.filterUpdate();
+       
     }
 
     filterItems = (e) => {
+        if(e.target.value==''){
+            this.filterUpdate();
+        }
+        else{
         this.setState({
             products: this.state.products.filter(el =>
                 el.name.toLowerCase().indexOf(e.target.value.toLowerCase()) !== -1)
@@ -26,10 +36,12 @@ class Products extends Component {
         });
 
     }
+}
 
     render() {
         return (
             <section className="product">
+                <h3 className="text-center pb-3 text-black fw-bold">STYLISH WATCHES</h3>
                 <div>
                     <form className="form-inline">
                         <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" onChange={this.filterItems} />
